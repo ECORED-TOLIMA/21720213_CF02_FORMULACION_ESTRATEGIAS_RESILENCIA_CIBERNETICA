@@ -15,288 +15,309 @@ export default {
     cuestionario: {
       tema: 'tema_actividad_didactica',
       titulo: 'Cuestionario',
-      introduccion: 'texto_introductorio_actividad_didactica',
+      introduccion:
+        'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: 'texto_pregunta',
+          texto:
+            'El objetivo principal de las estrategias de continuidad del negocio, es garantizar la operación de los procesos críticos ante incidentes o interrupciones.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: 'texto_pregunta',
+          texto:
+            'Las estrategias de mitigación buscan evitar completamente que ocurran eventos adversos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: 'texto_pregunta',
+          texto:
+            'El Análisis de Impacto al Negocio (BIA) permite identificar los procesos críticos y priorizar los recursos para su recuperación.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto: 'texto_pregunta',
+          texto:
+            'El RTO se refiere al tiempo máximo aceptable que puede estar inactivo un proceso antes de afectar gravemente la operación.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: 'texto_pregunta',
+          texto:
+            'El RPO define el tiempo máximo permitido para recuperar la infraestructura física después de un desastre.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: 'texto_pregunta',
+          texto:
+            'Los planes de continuidad, contingencia y recuperación tienen el mismo propósito y estructura.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto: 'texto_pregunta',
+          texto:
+            'La validación de estrategias consiste en probar su efectividad mediante ejercicios o simulaciones controladas.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto: 'texto_pregunta',
+          texto:
+            'El Plan de Continuidad del Negocio (PCN) debe actualizarse solo cuando ocurre una interrupción significativa.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto: 'texto_pregunta',
+          texto:
+            'La gestión del riesgo es una parte fundamental para la formulación de estrategias de continuidad.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'texto_pregunta',
+          texto:
+            'El BIA es un proceso estático que no requiere revisión constante.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto: 'texto_pregunta',
+          texto:
+            'Las estrategias de transferencia del riesgo consisten en compartirlo con terceros, por ejemplo, a través de seguros.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto: 'texto_pregunta',
+          texto:
+            'La resiliencia organizacional se refiere a la capacidad de prevenir incidentes antes de que ocurran.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto: 'texto_pregunta',
+          texto:
+            'Un PCN efectivo define responsables, recursos, procedimientos y tiempos de respuesta ante incidentes.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto: 'texto_pregunta',
+          texto:
+            'Las simulaciones de continuidad permiten medir la capacidad real de respuesta de la organización.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: 'texto_pregunta',
+          texto:
+            'La alta dirección no tiene un papel relevante en la implementación del PCN.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: 'texto_pregunta',
+          texto:
+            'La capacitación del personal forma parte de las acciones preventivas dentro de las estrategias de continuidad.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: 'texto_pregunta',
+          texto:
+            'Un RTO más corto implica una recuperación más rápida, pero también mayores costos de implementación.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
-          texto: 'texto_pregunta',
+          texto:
+            'Las estrategias de sustitución temporal son útiles cuando no se dispone de los recursos habituales para operar.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto: 'texto_pregunta',
+          texto:
+            'El cumplimiento normativo no influye en el diseño de estrategias de continuidad del negocio.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
-          texto: 'texto_pregunta',
+          texto:
+            'La mejora continua es un principio fundamental del Sistema de Gestión de Continuidad del Negocio.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una sólida comprensión de las estrategias de continuidad del negocio, el análisis de impacto y la gestión de recuperación, reflejando dominio en la aplicación de buenas prácticas para fortalecer la resiliencia organizacional.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
