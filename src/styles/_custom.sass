@@ -45,6 +45,10 @@
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
     background-size: cover
     background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner.png") !important
   background-size: cover
@@ -99,6 +103,16 @@
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
+.tarjeta--BG07
+  background-image: url("../assets/curso/temas/BG07.png")
+  background-size: cover
+  background-repeat: no-repeat
+.tarjeta.tarjeta-slide.arriba.color-secundario
+  background-color: #E9D6FA
+  *
+    color: black !important
+.tarjeta--BG08
+  background: #E9D6FA
 //- Modulo cajones
 .cajon.C01
   background-color: #EAE5FF
@@ -245,6 +259,21 @@ thead
   tr
     th
       background-color: #C0AFFF
+.tabla-a.responsive
+  width: 100%
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  border-radius: 8px
+  th, td
+  padding: 0.75rem
+  text-align: left
+  vertical-align: top
+  word-break: break-word
+  hyphens: auto
+@media (max-width: 768px)
+  th, td
+    font-size: 0.85rem
+    padding: 0.5rem
 
 //- Modulo listas 
 .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
@@ -295,7 +324,7 @@ thead
     background-color: #F4FFDF  
     border: none
   .acordion__accion__btn--a
-    background-color: #F4FFDF
+    background-color: #C0E651
 // modulo tabs
 .tabs-c__content-item
   background-color: #EAE5FF  
@@ -347,6 +376,16 @@ thead
   background-color: #E9D6FA
   border-radius: 20px
   h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+.etiqueta01
+  position: relative
+  left: -2%
+  background-color: #E9D6FA
+  h5
     color: black
   @media screen and ( max-width: $bp-max-lg )
     left: -3%

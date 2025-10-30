@@ -104,7 +104,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 9.
           span <em>Relación entre planes de continuidad, contingencia y recuperación</em>
-        .tabla-a.color-primario
+        .tabla-a.tabla-a.responsivecolor-primario
           table
             thead
               tr
@@ -150,7 +150,7 @@
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2 Elementos esenciales para su implementación
-    .tarjeta.tarjeta--BG02.px-lg-5.mb-5
+    .tarjeta.tarjeta--BG02.px-lg-5.px-4.mb-5
       .row.justify-content-center(data-aos="flip-up")
         .col-12.order-lg-2.order-2
           p(data-aos="fade-down") La implementación efectiva de un Plan de Continuidad del Negocio (PCN) requiere la integración de una serie de elementos estructurales y operativos que garanticen su funcionalidad y sostenibilidad a lo largo del tiempo. Estos elementos conforman el marco metodológico y organizacional necesario para preparar, responder y recuperarse de cualquier evento que interrumpa la operación normal de la entidad.

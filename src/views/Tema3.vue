@@ -16,7 +16,7 @@
         br
     p(data-aos="fade-down") El diseño de una estrategia efectiva debe responder a tres principios fundamentales: prevención, mitigación y recuperación. Esto implica anticipar los posibles escenarios de interrupción, definir cómo mantener las funciones esenciales durante la crisis y establecer mecanismos para restaurar la normalidad en el menor tiempo posible.
     p.mb-5(data-aos="fade-down") En la práctica, el proceso de diseño parte de la información obtenida del BIA, donde se identifican los procesos críticos, los tiempos máximos de recuperación (RTO), la pérdida de datos aceptable (RPO) y los impactos asociados. Con base en estos datos, se seleccionan las estrategias más adecuadas según el contexto, los recursos disponibles y las capacidades tecnológicas y humanas de la organización.
-    .tarjeta.tarjeta--BG04.px-lg-5.mb-4.py-4
+    .tarjeta.tarjeta--BG07.px-lg-5.px-4.mb-4.py-4
       .row.justify-content-center
         .col-lg-3.col-md-8.col-9.mb-3.order-lg-2.order-1
           figure(data-aos="fade-up")
@@ -199,7 +199,7 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 Aplicación de criterios técnicos y de gestión en el diseño
-    .tarjeta.tarjeta--BG02.px-lg-5.mb-5
+    .tarjeta.tarjeta--BG02.px-lg-5.px-4.mb-5
       .row.justify-content-center(data-aos="flip-up")
         .col-lg-7.col-12.order-lg-2.order-2
           p(data-aos="fade-down") El diseño de estrategias de continuidad del negocio requiere un equilibrio entre los criterios técnicos y de gestión, de manera que las soluciones planteadas sean viables, sostenibles y coherentes con la realidad operativa de la organización. Estos criterios garantizan que las estrategias no solo respondan a los riesgos identificados, sino que también se integren de manera efectiva en la estructura organizacional, la cultura institucional y los sistemas de gestión existentes.

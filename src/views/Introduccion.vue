@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p.mb-5(data-aos="fade-down") Este componente formativo aborda las estrategias y planes que permiten garantizar la continuidad operativa de una organización ante incidentes, crisis o desastres. Se orienta al diseño, validación e implementación de estrategias de continuidad del negocio, considerando criterios técnicos, organizacionales y de gestión del riesgo.
+    p.mb-4(data-aos="fade-down") Este componente formativo aborda las estrategias y planes que permiten garantizar la continuidad operativa de una organización ante incidentes, crisis o desastres. Se orienta al diseño, validación e implementación de estrategias de continuidad del negocio, considerando criterios técnicos, organizacionales y de gestión del riesgo.
     .row.justify-content-center.mb-5
       .col-lg-10.col-12.order-lg-2.order-2
         .cajon.cajon.C01.p-4.mb-4

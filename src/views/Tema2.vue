@@ -20,7 +20,7 @@
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Metodología del BIA y su importancia en la gestión de continuidad
-    .tarjeta.tarjeta--BG02.px-lg-5.mb-5
+    .tarjeta.tarjeta--BG02.px-lg-5.px-4.mb-4
       .row.justify-content-center(data-aos="flip-up")
         .col-lg-6.col-12.order-lg-2.order-2
           p(data-aos="fade-down") La metodología del Análisis de Impacto al Negocio (BIA) proporciona un marco estructurado para identificar los procesos críticos, evaluar las consecuencias de su interrupción y establecer prioridades de recuperación. Este proceso constituye una etapa clave dentro del Sistema de Gestión de Continuidad del Negocio (SGCN), pues traduce los impactos potenciales en información medible y útil para la toma de decisiones estratégicas.
@@ -183,12 +183,12 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img13.jpg', alt='Imagen decorativa')
     p.mb-5(data-aos="fade-down") Para dar contexto a la metodología anterior, se presenta el siguiente ejemplo práctico:
-    .tarjeta.tarjeta--BG04.px-lg-5.mb-4.py-3
+    .tarjeta.tarjeta--BG04.px-lg-5.px-4.mb-4.py-3
       .row.justify-content-center.mb-4(data-aos="flip-up")
-        .col-lg-6.col-12.order-lg-2.order-2
+        .col-lg-7.col-12.order-lg-2.order-2
           p(data-aos="fade-down") Una empresa del sector logístico realiza un BIA con el fin de fortalecer su sistema de continuidad del negocio. En el proceso de análisis, se identifican los principales procesos que soportan la operación y se evalúan sus interdependencias, recursos asociados e impactos ante una interrupción prolongada.
           p.mb-0(data-aos="fade-down") Entre los resultados se destacan los siguientes procesos críticos:
-        .col-lg-4.col-md-6.col-12.mb-3.order-lg-1.order-1.mb-4
+        .col-lg-3.col-md-6.col-12.mb-3.order-lg-1.order-1.mb-4
           .row.justify-content-center(data-aos="flip-up")
             .col
               figure

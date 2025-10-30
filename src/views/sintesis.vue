@@ -6,7 +6,7 @@
     
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-12.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt=" En la síntesis se presenta una visión general de los conceptos y procesos clave para la gestión de la continuidad del negocio, destacando la importancia de las estrategias, el análisis de impacto, los tiempos de recuperación y la formulación del plan de continuidad como herramientas fundamentales para fortalecer la resiliencia y asegurar la operación ante eventos disruptivos.")
       .col-auto

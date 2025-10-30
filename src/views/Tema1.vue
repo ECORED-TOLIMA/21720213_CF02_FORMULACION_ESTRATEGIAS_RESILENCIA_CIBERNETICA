@@ -84,53 +84,118 @@
           p.mb-0(data-aos="fade-down") Por ejemplo, en el área tecnológica, se pueden implementar esquemas de respaldo de datos o replicación de servidores; en la gestión del talento humano, planes de reemplazo de personal clave; y en las operaciones logísticas, acuerdos con proveedores alternos o rutas de distribución contingentes.
     p(data-aos="fade-down") Además, la aplicación efectiva implica establecer responsables, recursos y métricas de desempeño que permitan evaluar su funcionamiento en escenarios reales o simulados. La comunicación interna, la capacitación del personal y la revisión periódica de los planes son elementos indispensables para asegurar que las estrategias mantengan su vigencia frente a cambios en el entorno o en la estructura organizacional.
     p.mb-5(data-aos="fade-down") La aplicación organizacional de las estrategias de continuidad debe abordarse como un proceso estructurado, articulado con el Sistema de Gestión de Continuidad del Negocio (SGCN) y con la estrategia corporativa general. Este proceso se desarrolla en varias etapas:
-    .row.justify-content-center.mb-4
-      .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
-        .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt1--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img09.png", alt="Imagen decorativa")
-          .crd_hover_txt1--body
-            h5.t1.mb-3 Planeación
-            h5.t2.mb-2 Planeación
+    .desktop
+      .row.mb-5
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-auto.p-xl-5
+                h4 Planeación
+                p.mb-0 Consiste en definir los objetivos de continuidad, identificar los procesos críticos y seleccionar las estrategias más adecuadas de acuerdo con el análisis de riesgos y el BIA.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img09.svg')})`}")
+
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img10.svg')})`}")
+              .tarjeta-slide__contenido.p-auto.p-xl-5
+                h4 Implementación
+                p.mb-0 Incluye la asignación de recursos, la elaboración de procedimientos, la capacitación del personal y la comunicación de las responsabilidades. En esta fase se formalizan los planes y se integran a la operación diaria.
+
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.svg')})`}")
+              .tarjeta-slide__contenido.p-auto.p-xl-5
+                h4 Ejecución y monitoreo
+                p.mb-0 Corresponde a la puesta en marcha de las estrategias cuando ocurre un evento disruptivo, garantizando la continuidad de los procesos priorizados. Incluye el seguimiento en tiempo real, la toma de decisiones y la activación de los equipos de respuesta.
+
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img12.svg')})`}")
+              .tarjeta-slide__contenido.p-auto.p-xl-5
+                h4 Evaluación y mejora continua
+                p.mb-0 Una vez controlado el incidente, se realiza un análisis de desempeño para identificar aciertos, fallas y oportunidades de mejora. Esta retroalimentación fortalece la preparación institucional para futuros eventos.
+    .movil
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-10.col-12
+          .tarjeta.tarjeta--BG08.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema1/img09_1.png', alt='Imagen decorativa')
+            h4 Planeación
             p.mb-0 Consiste en definir los objetivos de continuidad, identificar los procesos críticos y seleccionar las estrategias más adecuadas de acuerdo con el análisis de riesgos y el BIA.
-      .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
-        .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt1--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img10.png", alt="Imagen decorativa")
-          .crd_hover_txt1--body
-            h5.t1.mb-3 Implementación
-            h5.t2.mb-2 Implementación
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-10.col-12
+          .tarjeta.tarjeta--BG08.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema1/img10_1.png', alt='Imagen decorativa')
+            h4 Implementación
             p.mb-0 Incluye la asignación de recursos, la elaboración de procedimientos, la capacitación del personal y la comunicación de las responsabilidades. En esta fase se formalizan los planes y se integran a la operación diaria.
-      .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
-        .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt1--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img11.png", alt="Imagen decorativa")
-          .crd_hover_txt1--body
-            h5.t1.mb-3 Ejecución y monitoreo
-            h5.t2.mb-2 Ejecución y monitoreo
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-10.col-12
+          .tarjeta.tarjeta--BG08.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema1/img11_1.png', alt='Imagen decorativa')
+            h4 Ejecución y monitoreo
             p.mb-0 Corresponde a la puesta en marcha de las estrategias cuando ocurre un evento disruptivo, garantizando la continuidad de los procesos priorizados. Incluye el seguimiento en tiempo real, la toma de decisiones y la activación de los equipos de respuesta.
-      .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
-        .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
-          .indicador--hover(v-if="mostrarIndicador")
-          .crd_hover_txt1--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img12.png", alt="Imagen decorativa")
-          .crd_hover_txt1--body
-            h5.t1.mb-3 Evaluación y mejora continua
-            h5.t2.mb-2 Evaluación y mejora continua
+      .row.justify-content-center.align-items-center.mb-5
+        .col-md-10.col-12
+          .tarjeta.tarjeta--BG08.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema1/img12_1.png', alt='Imagen decorativa')
+            h4 Evaluación y mejora continua
             p.mb-0 Una vez controlado el incidente, se realiza un análisis de desempeño para identificar aciertos, fallas y oportunidades de mejora. Esta retroalimentación fortalece la preparación institucional para futuros eventos.
+    //- .row.justify-content-center.mb-4
+    //-   .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
+    //-     .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+    //-       .indicador--hover(v-if="mostrarIndicador")
+    //-       .crd_hover_txt1--img
+    //-         figure
+    //-           img(src="@/assets/curso/temas/tema1/img09.png", alt="Imagen decorativa")
+    //-       .crd_hover_txt1--body
+    //-         h5.t1.mb-3 Planeación
+    //-         h5.t2.mb-2 Planeación
+    //-         p.mb-0 Consiste en definir los objetivos de continuidad, identificar los procesos críticos y seleccionar las estrategias más adecuadas de acuerdo con el análisis de riesgos y el BIA.
+    //-   .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
+    //-     .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+    //-       .indicador--hover(v-if="mostrarIndicador")
+    //-       .crd_hover_txt1--img
+    //-         figure
+    //-           img(src="@/assets/curso/temas/tema1/img10.png", alt="Imagen decorativa")
+    //-       .crd_hover_txt1--body
+    //-         h5.t1.mb-3 Implementación
+    //-         h5.t2.mb-2 Implementación
+    //-         p.mb-0 Incluye la asignación de recursos, la elaboración de procedimientos, la capacitación del personal y la comunicación de las responsabilidades. En esta fase se formalizan los planes y se integran a la operación diaria.
+    //-   .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
+    //-     .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+    //-       .indicador--hover(v-if="mostrarIndicador")
+    //-       .crd_hover_txt1--img
+    //-         figure
+    //-           img(src="@/assets/curso/temas/tema1/img11.png", alt="Imagen decorativa")
+    //-       .crd_hover_txt1--body
+    //-         h5.t1.mb-3 Ejecución y monitoreo
+    //-         h5.t2.mb-2 Ejecución y monitoreo
+    //-         p.mb-0 Corresponde a la puesta en marcha de las estrategias cuando ocurre un evento disruptivo, garantizando la continuidad de los procesos priorizados. Incluye el seguimiento en tiempo real, la toma de decisiones y la activación de los equipos de respuesta.
+    //-   .col-xl-3.col-lg-6.col-md-8.col-12.mb-xl-0
+    //-     .crd_hover_txt1.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
+    //-       .indicador--hover(v-if="mostrarIndicador")
+    //-       .crd_hover_txt1--img
+    //-         figure
+    //-           img(src="@/assets/curso/temas/tema1/img12.png", alt="Imagen decorativa")
+    //-       .crd_hover_txt1--body
+    //-         h5.t1.mb-3 Evaluación y mejora continua
+    //-         h5.t2.mb-2 Evaluación y mejora continua
+    //-         p.mb-0 Una vez controlado el incidente, se realiza un análisis de desempeño para identificar aciertos, fallas y oportunidades de mejora. Esta retroalimentación fortalece la preparación institucional para futuros eventos.
     .row.justify-content-center
       .col-lg-10.col-12
         p(data-aos="fade-down") Este enfoque cíclico asegura que las estrategias no sean acciones aisladas, sino parte de un sistema vivo y adaptable. Al integrarlas en la gestión organizacional, se fortalecen la resiliencia, la capacidad de respuesta y la sostenibilidad operativa frente a escenarios cambiantes o de alta incertidumbre.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2 Criterios técnicos para la selección de estrategias de continuidad
+    p(data-aos="fade-down") La selección de estrategias de continuidad del negocio requiere un análisis técnico riguroso que garantice su viabilidad, efectividad y alineación con los objetivos institucionales. Este proceso implica evaluar las condiciones internas y externas de la organización, los recursos disponibles y la capacidad de respuesta ante posibles interrupciones. Una estrategia efectiva no solo debe ser técnicamente sólida, sino también económicamente sostenible y operativamente alcanzable.
+    p.mb-5(data-aos="fade-down") Los criterios técnicos que deben considerarse en este proceso incluyen los siguientes:
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-12
         .titulo-sexto.color-acento-contenido

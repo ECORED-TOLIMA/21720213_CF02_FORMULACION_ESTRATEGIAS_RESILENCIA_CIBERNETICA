@@ -245,8 +245,9 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
         p(data-aos="fade-down") Una empresa de servicios públicos decide evaluar la efectividad de su Plan de Continuidad del Negocio mediante la simulación de una falla crítica en su sistema central de facturación y atención al usuario. El escenario simulado consiste en una caída total del servidor principal durante la jornada de mayor demanda.
-        .titulo-sexto.color-acento-contenido
-          h5 Etapas de la simulación
+        .col-lg-3.col-md-5.col-auto
+          .titulo-sexto.color-secundario.etiqueta01
+            h5 Etapas de la simulación
       .col-lg-6.col-12.mb-5.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
           .row(numero="1" titulo="Activación del escenario")
